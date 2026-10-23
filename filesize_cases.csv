@@ -1,0 +1,10 @@
+bytes,binary,gnu,expected
+0,False,False,0 Bytes
+1,False,False,1 Byte
+999,False,False,999 Bytes
+1000,False,False,1.0 kB
+1024,False,False,1.0 kB
+1024,True,False,1.0 KiB
+1048576,True,False,1.0 MiB
+1024,False,True,1.0K
+1048576,False,True,1.0M
