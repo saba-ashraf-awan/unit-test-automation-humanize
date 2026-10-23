@@ -1,0 +1,20 @@
+func,input,expected
+intcomma,0,0
+intcomma,999,999
+intcomma,1000,"1,000"
+intcomma,-1000,"-1,000"
+intcomma,1000000,"1,000,000"
+intword,999,999
+intword,1000,1.0 thousand
+intword,1000000,1.0 million
+intword,1000000000,1.0 billion
+ordinal,1,1st
+ordinal,2,2nd
+ordinal,3,3rd
+ordinal,4,4th
+ordinal,11,11th
+ordinal,12,12th
+ordinal,13,13th
+ordinal,21,21st
+ordinal,101,101st
+ordinal,111,111th
